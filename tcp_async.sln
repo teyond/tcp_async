@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tcp_async", "tcp_async\tcp_async.vcxproj", "{2352A96F-25C9-4398-87C6-0433B9958EF3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "tcp_async\tcp_async.vcxproj", "{2352A96F-25C9-4398-87C6-0433B9958EF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{B065A5AA-2787-4805-96E0-50D6203F0F72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{2352A96F-25C9-4398-87C6-0433B9958EF3}.Release|x64.Build.0 = Release|x64
 		{2352A96F-25C9-4398-87C6-0433B9958EF3}.Release|x86.ActiveCfg = Release|Win32
 		{2352A96F-25C9-4398-87C6-0433B9958EF3}.Release|x86.Build.0 = Release|Win32
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Debug|x64.ActiveCfg = Debug|x64
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Debug|x64.Build.0 = Debug|x64
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Debug|x86.ActiveCfg = Debug|Win32
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Debug|x86.Build.0 = Debug|Win32
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Release|x64.ActiveCfg = Release|x64
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Release|x64.Build.0 = Release|x64
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Release|x86.ActiveCfg = Release|Win32
+		{B065A5AA-2787-4805-96E0-50D6203F0F72}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
